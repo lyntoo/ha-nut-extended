@@ -58,7 +58,7 @@ UPS_BUTTON_DESCRIPTIONS: dict[str, ButtonEntityDescription] = {
     COMMAND_LOAD_OFF: ButtonEntityDescription(
         key=COMMAND_LOAD_OFF,
         translation_key="load_off",
-        entity_registry_enabled_default=True,
+        entity_registry_enabled_default=False,  # Disabled by default — kills HA if server is on UPS
     ),
 }
 
