@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Home Assistant logs and temp files
+*.log
+*.db
+*.db-shm
+*.db-wal
+
+# Project working files
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
